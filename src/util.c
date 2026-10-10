@@ -429,7 +429,7 @@ void checkcfg(void) {
 #endif
 	cfg.revdir = !!cfg.revdir;
 	cfg.brushed = !!cfg.brushed;
-	cfg.timing = clamp(cfg.timing, 1, 31);
+	cfg.timing = clamp(cfg.timing, 1, 40);
 	cfg.sine_range = cfg.sine_range && !cfg.brushed ? clamp(cfg.sine_range, 5, 25) : 0;
 	cfg.sine_power = clamp(cfg.sine_power, 1, 15);
 	cfg.freq_min = clamp(cfg.freq_min, 48, 152);
