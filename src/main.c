@@ -17,8 +17,8 @@
 
 #include "common.h"
 
-#define REVISION NINJA
-#define REVPATCH X
+#define REVISION "NINJA"
+#define REVPATCH "X"
 
 const Cfg cfgdata = {
 	.id = 0x32ea,
