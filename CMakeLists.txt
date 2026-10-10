@@ -26,7 +26,7 @@ add_link_options(-nostartfiles -Wl,--gc-sections)
 # aartech-dev/ESCape32, which builds the AART* targets under identical names
 # with no such suffix -- BUILD_TAG keeps this fork's artifacts distinguishable
 # from theirs. Override with `cmake -B build -D BUILD_TAG=...`.
-set(BUILD_TAG "-NINJA-X" CACHE STRING "Suffix appended to build artifact filenames")
+set(BUILD_TAG "CarolineMotores" CACHE STRING "Suffix appended to build artifact filenames")
 
 function(add_target name mcu)
 	include(mcu/${mcu}/config.cmake)
