@@ -17,14 +17,14 @@
 
 #include "common.h"
 
-#define REVISION 17
-#define REVPATCH 1
+#define REVISION NINJA
+#define REVPATCH X
 
 const Cfg cfgdata = {
 	.id = 0x32ea,
 	.revision = REVISION,
 	.revpatch = REVPATCH,
-	.name = TARGET_NAME,
+	// .name = TARGET_NAME, (REMOVIDO AART1) 
 	.arm = ARM,                 // Wait for 250ms zero throttle on startup
 	.damp = DAMP,               // Complementary PWM (active freewheeling)
 	.revdir = REVDIR,           // Reversed motor direction
